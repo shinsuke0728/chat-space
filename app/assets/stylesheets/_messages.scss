@@ -41,11 +41,11 @@
       overflow: scroll;
       .group{
         margin-bottom: 40px;
-        .group__group-name{
+        &__group-name{
           font-size: 15px;
           margin-bottom: 5px;
         }
-        .group__group-message{
+        &__group-message{
           font-size: 11px;
         }
       }
@@ -64,7 +64,7 @@
       overflow: scroll;
       .current-group{
         margin-top :35px;
-        .current-group__name{
+        &__name{
           font-size: 20px;
           color: #333333;
         }
@@ -75,7 +75,7 @@
           color: #999999;
         }
       }
-      .main-header__edit-button{
+      &__edit-button{
         height: 40px;
         line-height: 40px;
         padding: 0 20px;
@@ -94,18 +94,18 @@
         .upper-info {
           display: flex;
           margin-bottom: 10px;
-          .upper-info__user {
+          &__user {
             color: #434a54;
             font-size: 16px;
             font-weight: bold;
           }
-          .upper-info__date {
+          &__date {
             color: #999999;
             font-size: 12px;
             margin-left: 10px;
           }
         }
-        .message__text {
+        &__text {
           color: #434a54;
           font-size: 14px;
           margin-bottom: 10px;
@@ -121,19 +121,19 @@
         .input-box{
           position: relative;
           width: 100%;
-          .input-box__text{
+          &__text{
             height: 50px;
             width: 100%;
             padding: 0 40px 0 10px;
             color: #434a54;
           }
-          .input-box__image{
+          &__image{
             font-size: 1.3rem;
             position: absolute;
             top: 10px;
             right: 10px;
             cursor: pointer;
-            .input-box__image__file{
+            &__file{
               display: none;
             }
           }

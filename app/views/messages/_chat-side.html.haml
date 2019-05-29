@@ -2,9 +2,9 @@
   %div.side-header
     %p.side-header__username seo
     %ul.user-menu
-      %a{:href => "/groups/new"}
+      = link_to '/groups/new' do
         %i.fa.fa-pencil-square-o
-      %a{:href => "/users/currentuser_id/edit"}
+      = link_to '/users/currentuser_id/edit' do
         %i.fa.fa-cog  
   %div.groups
     %div.group
