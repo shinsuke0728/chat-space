@@ -1,7 +1,7 @@
-%div.form
+.form
   %form#new_message.new_message{action: "/groups/messages", enctype: "multipart/form-data",method: "post"}
     %input{type: "hidden"}/
-    %div.input-box
+    .input-box
       %input#message_content.input-box__text{name: "message[content]", placeholder: "type a message", type: "text"}/
       %label.input-box__image{for: "message_image"}
         %i.fa.fa-image
