@@ -1,0 +1,18 @@
+.chat-side
+  .side-header
+    %p.side-header__username seo
+    %ul.user-menu
+      = link_to '/groups/new' do
+        %i.fa.fa-pencil-square-o
+      = link_to '/users/currentuser_id/edit' do
+        %i.fa.fa-cog  
+  .groups
+    .group
+      %p.group__group-name sample
+      %p.group__group-message Good bye world
+    .group
+      %p.group__group-name sample group
+      %p.group__group-message hello!
+    .group
+      %p.group__group-name example
+      %p.group__group-message まだです
