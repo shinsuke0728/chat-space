@@ -1,0 +1,13 @@
+$prefixes: -webkit-, -moz-, -o-, '';
+
+@mixin clearfix {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+@mixin flexbox {
+  @each $prefix in $prefixes {
+    display: #{$prefix}flex;
+  }
+}
