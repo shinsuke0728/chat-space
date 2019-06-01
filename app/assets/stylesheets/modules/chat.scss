@@ -23,17 +23,15 @@
       }
     }
     .right-header {
-      text-decoration: none;
-      border: 1px solid #38afe0;
+      border: 1px solid $light_blue;
       color: $light_blue;
       float: right;
       height: 40px;
       line-height: 40px;
       margin-top: 28px;
       padding: 0 20px;
-      border-radius:5px;
       &__button {
-        color: #38afe0;
+        color: $light_blue;
         text-decoration: none;
       }
     }
@@ -43,8 +41,7 @@
     background-color: #FAFAFA;
     box-sizing: border-box;
     padding: 46px 40px 0;
-    overflow: scroll;
-    height: calc(100vh - 100px - 90px);
+    height: calc(100% - 100px - 90px);
     .message {
       .upper-message {
         display: flex;
@@ -79,17 +76,15 @@
       border: none;
       float: left;
       height: 50px;
-      width: calc(100% - 220px);
-      border-radius:5px 0 0 5px;
+      width: calc(100% - 250px);
     }
     &__mask {
       background-color: $white;
       float: left;
       height: 50px;
       padding-right: 10px;
-      border-radius:0 5px 5px 0;
       &__image {
-        font-size: 5px;
+        font-size: 20px;
         line-height: 50px;
       }
       .hidden {
@@ -97,7 +92,7 @@
       }
     }
     &__submit {
-      background-color: #38afe0;
+      background-color: $light_blue;
       border: none;
       color: $white;
       float: right;
@@ -105,7 +100,6 @@
       height: 50px;
       margin-left: 15px;
       padding: 0 30px;
-      border-radius:5px;
     }
   }
 }
