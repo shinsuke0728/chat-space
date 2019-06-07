@@ -29,7 +29,7 @@
         - group.users.each do |user|
         - next if current_user.name == user.name
           #current-user.chat-group-user.clearfix
-            %input{name: "group[user_ids][]", type: "hidden", value: "#{current_user.id}"}/
+            %input{name: "group[user_ids][]", type: "hidden", value: "#{user.id}"}/
             %p.chat-group-user__name
               = user.name
             .user-search-remove.chat-group-user__btn.chat-group-user__btn--remove.jsremove-btn 削除
