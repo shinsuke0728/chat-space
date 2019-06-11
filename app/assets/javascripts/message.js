@@ -70,7 +70,7 @@ $(document).on('turbolinks:load', function(){
         insertHTML += buildHTML(message);
         scroll_view();
       })
-      $('.messages').append(insertHTML);
+      $('.messages').append(this);
     })
     .fail(function(){
       console.log('error');
